@@ -1,6 +1,12 @@
+# Deprecation notice
+
+This app was written for the Pebble Smartwatch. [Since the Pebble has been discontinued,](https://blog.getpebble.com/2016/12/07/fitbit/) I will no longer be maintaining this code.
+
 # Pebble HTTP Notes
 
-Quick and dirty little app I use to display and refresh the contents of a simple markdownish note hosted via HTTP. An example of the exact note format can be seen [here](https://gist.githubusercontent.com/redoPop/f79c2de8f684a50c7200/raw/1dfee4034d28c46224681eaa673c612a4c7a9442/note.md); each `# heading` in the doc is rendered as a menu item which can be selected to read its contents, making the entire note pretty easy to skim in Pebble.
+A simple app to display and refresh the contents of a web-hosted note split into categories using a markdown-like format.
+
+An example of the exact note format can be seen [here](https://gist.githubusercontent.com/redoPop/f79c2de8f684a50c7200/raw/1dfee4034d28c46224681eaa673c612a4c7a9442/note.md); each `# heading` in the doc is rendered as a menu item which can be selected to read its contents, making the entire note pretty easy to skim in Pebble.
 
 ## Setup
 
